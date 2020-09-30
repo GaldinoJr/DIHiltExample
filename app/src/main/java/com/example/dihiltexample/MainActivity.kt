@@ -6,6 +6,10 @@ import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_main.*
 import javax.inject.Inject
 
+/**
+ * Link da documentação oficial seguida nesse exemplo: https://developer.android.com/training/dependency-injection/hilt-android?hl=pt-br
+ */
+
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity(), MainContract.View {
     @Inject lateinit var mainPresenter: MainPresenter
